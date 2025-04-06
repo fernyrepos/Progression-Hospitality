@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Progression: Hospitality</name>
+	<author>ferny</author>
+	<packageId>ferny.progressionhospitality</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+	</supportedVersions>
+	<description>Overhauls and integrates various hospitality mods into a more complete package.</description>
+	<loadAfter>
+		<li>Ludeon.Rimworld</li>
+		<li>Ludeon.Rimworld.Royalty</li>
+		<li>Ludeon.Rimworld.Ideology</li>
+		<li>Ludeon.Rimworld.Biotech</li>
+		<li>Ludeon.Rimworld.Anomaly</li>
+		<li>Adamas.VendingMachines</li>
+		<li>nightmare.museums</li>
+		<li>biomesteam.biomesfossils</li>
+		<li>adamas.hospitalitycasino</li>
+		<li>adamas.hospitalityspa</li>
+		<li>orion.cashregister</li>
+		<li>orion.gastronomy</li>
+		<li>rebuild.cotr.doorsandcorners</li>
+		<li>dankpyon.medieval.overhaul</li>
+		<li>ferny.progressionaesthetics</li>
+		<li>rooboid.paintings.ex</li>
+	</loadAfter>
+    <incompatibleWith>
+        <li>Mewn.CashRegister</li>
+    </incompatibleWith>
+</ModMetaData>
