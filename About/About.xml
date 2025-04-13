@@ -25,6 +25,7 @@
 		<li>dankpyon.medieval.overhaul</li>
 		<li>ferny.progressionaesthetics</li>
 		<li>rooboid.paintings.ex</li>
+		<li>nightmare.aquariums</li>
 	</loadAfter>
     <incompatibleWith>
         <li>Mewn.CashRegister</li>
