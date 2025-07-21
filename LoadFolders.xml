@@ -11,6 +11,7 @@
     <li IfModActive="Adamas.Storefront">Mods and Shit/Storefront</li>
     <li IfModActive="dankpyon.medieval.overhaul">Mods and Shit/Medieval Overhaul</li>
     <li IfModActive="nightmare.aquariums">Mods and Shit/Aquariums</li>
+    <li IfModActive="adamas.hospital">Mods and Shit/Hospital</li>
   </v1.4>
   <v1.5>
     <li>/</li>
@@ -24,5 +25,7 @@
     <li IfModActive="Adamas.Storefront">Mods and Shit/Storefront</li>
     <li IfModActive="dankpyon.medieval.overhaul">Mods and Shit/Medieval Overhaul</li>
     <li IfModActive="nightmare.aquariums">Mods and Shit/Aquariums</li>
+    <li IfModActive="adamas.hospital">Mods and Shit/Hospital</li>
   </v1.5>
+
 </loadFolders>

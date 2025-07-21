@@ -27,6 +27,7 @@
 		<li>ferny.progressionaesthetics</li>
 		<li>rooboid.paintings.ex</li>
 		<li>nightmare.aquariums</li>
+		<li>adamas.hospital</li>
 	</loadAfter>
     <incompatibleWith>
         <li>Mewn.CashRegister</li>
