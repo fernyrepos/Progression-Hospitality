@@ -61,7 +61,7 @@
 		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<tickerType>Rare</tickerType>
-		<designationCategory>Ferny_Hosting</designationCategory>
+		<designationCategory>Misc</designationCategory>
 		<destroyable>true</destroyable>
 		<tradeability>None</tradeability>
 		<clearBuildingArea>false</clearBuildingArea>

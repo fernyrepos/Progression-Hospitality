@@ -1,41 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>          
 <Patch>       
-                <Operation Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="Museums_DonationBox"]/designationCategory</xpath>
-                    <value>
-                        <designationCategory>Ferny_Hosting</designationCategory>
-                    </value>
-                </Operation>
-                <Operation Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="Museums_Barrier"]/designationCategory</xpath>
-                    <value>
-                        <designationCategory>Ferny_Hosting</designationCategory>
-                    </value>
-                </Operation>
-                <Operation Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="Museums_Sign"]/designationCategory</xpath>
-                    <value>
-                        <designationCategory>Ferny_Hosting</designationCategory>
-                    </value>
-                </Operation>
-                <Operation Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="Museums_TourGatheringSpot"]/designationCategory</xpath>
-                    <value>
-                        <designationCategory>Ferny_Hosting</designationCategory>
-                    </value>
-                </Operation>
-                <Operation Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[@Name="Museums_PedestalBase"]/designationCategory</xpath>
-                    <value>
-                        <designationCategory>Ferny_Hosting</designationCategory>
-                    </value>
-                </Operation>
-                <Operation Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[@Name="MuseumDisplayBase"]/designationCategory</xpath>
-                    <value>
-                        <designationCategory>Ferny_Hosting</designationCategory>
-                    </value>
-                </Operation>
+
                 <Operation Class="PatchOperationAdd">
                     <xpath>Defs/ThingDef[defName="Museums_TourGatheringSpot"]</xpath>
                     <value>
@@ -60,12 +25,23 @@
                         <researchPrerequisites><li>Ferny_Museums</li></researchPrerequisites>
                     </value>
                 </Operation>
-                <Operation Class="PatchOperationAdd">
-                    <xpath>Defs/ThingDef[defName="Museums_DisplayCase_Small"]</xpath>
-                    <value>
-                        <researchPrerequisites><li>Ferny_Museums</li></researchPrerequisites>
-                    </value>
+
+                <Operation Class="PatchOperationFindMod">
+                    <mods>
+                    <li>Hospitality (Continued)</li>
+                    </mods>
+                    <match Class="PatchOperationSequence">
+                    <operations>
+                        <li Class="PatchOperationAdd">
+                            <xpath>Defs/ThingDef[defName="Museums_DisplayCase_Small"]</xpath>
+                            <value>
+                                <researchPrerequisites><li>Ferny_Museums</li></researchPrerequisites>
+                            </value>
+                        </li>
+                    </operations>
+                    </match>
                 </Operation>
+
                 <Operation Class="PatchOperationAdd">
                     <xpath>Defs/ThingDef[defName="Museums_DisplayCase_Medium"]</xpath>
                     <value>
@@ -96,6 +72,8 @@
                         <researchPrerequisites><li>Ferny_Museums</li></researchPrerequisites>
                     </value>
                 </Operation>
+
+
 <Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>ReBuild: Doors and Corners</li>
@@ -198,24 +176,4 @@
 	</Operation>
 
 
-
-
-                <Operation Class="PatchOperationAdd">
-                    <xpath>Defs/ThingDef[defName="Museums_Bench_Small"]</xpath>
-                    <value>
-                        <label>museum bench (1x1)</label>
-                    </value>
-                </Operation>
-                <Operation Class="PatchOperationAdd">
-                    <xpath>Defs/ThingDef[defName="Museums_Bench_Medium"]</xpath>
-                    <value>
-                        <label>museum bench (1x2)</label>
-                    </value>
-                </Operation>
-                <Operation Class="PatchOperationAdd">
-                    <xpath>Defs/ThingDef[defName="Museums_Bench_Large"]</xpath>
-                    <value>
-                        <label>museum bench (1x3)</label>
-                    </value>
-                </Operation>
 </Patch>
