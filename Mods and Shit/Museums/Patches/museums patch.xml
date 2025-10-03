@@ -133,7 +133,6 @@
 		</match>
 	</Operation>
 
-
 <Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Roo's Painting Expansion</li>
@@ -141,14 +140,17 @@
 		<match Class="PatchOperationSequence">
     <operations>
 
-
-        <li Class="PatchOperationReplace">
-            <xpath>Defs/ThingDef[defName="RBPGalleryBarrier"]/designationCategory</xpath>
-            <value>
-                <designationCategory></designationCategory>
-            </value>
-        </li>
-
+                    <li Class="PatchOperationAdd">
+                        <xpath>Defs</xpath>
+                        <value>
+							<VEF.Buildings.HiddenDesignatorsDef>
+								<defName>FernyMuseumsRoosPaintingProgHospitality_HiddenDesignators</defName>
+								<hiddenDesignators>
+									<li>RBPGalleryBarrier</li>
+								</hiddenDesignators>
+							</VEF.Buildings.HiddenDesignatorsDef>
+                        </value>
+                    </li>
 
     </operations>
 		</match>
@@ -162,14 +164,18 @@
 		<match Class="PatchOperationSequence">
     <operations>
 
-
-        <li Class="PatchOperationAdd">
-            <xpath>Defs/ThingDef[defName="BMT_DisplayCase"]</xpath>
-            <value>
-                <designationCategory></designationCategory>
-            </value>
-        </li>
-
+                    <li Class="PatchOperationAdd">
+                        <xpath>Defs</xpath>
+                        <value>
+							<VEF.Buildings.HiddenDesignatorsDef>
+								<defName>FernyMuseumsBiomesFossilsProgHospitality_HiddenDesignators</defName>
+								<hiddenDesignators>
+									<li>BMT_DisplayCase</li>
+                                    <li>BMT_VelvetRope</li>
+								</hiddenDesignators>
+							</VEF.Buildings.HiddenDesignatorsDef>
+                        </value>
+                    </li>
 
     </operations>
 		</match>

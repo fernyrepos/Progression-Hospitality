@@ -20,17 +20,4 @@
                     </value>
                 </Operation>
 
-                <Operation Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="BMT_VelvetRope"]/designationCategory</xpath>
-                    <value>
-                        <designationCategory></designationCategory>
-                    </value>
-                </Operation>
-                <Operation Class="PatchOperationAdd">
-                    <xpath>Defs/ThingDef[defName="BMT_DisplayCase"]</xpath>
-                    <value>
-                        <designationCategory></designationCategory>
-                    </value>
-                </Operation>
-
 </Patch>
